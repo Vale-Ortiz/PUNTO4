@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Verificar Edad</title>
+</head>
+
+<body>
+    <script>
+
+        var edad = prompt("Por favor, ingrese su edad:");
+
+
+        var edadNumero = parseInt(edad);
+
+
+        if (!isNaN(edadNumero)) {
+
+            if (edadNumero >= 18) {
+                alert("Eres mayor de edad. ¡Bienvenido!");
+            } else {
+                alert("Eres menor de edad. Debes ser mayor de 18 años para continuar.");
+            }
+        } else {
+            alert("Por favor, ingrese una edad válida.");
+        }
+    </script>
+</body>
+
+</html>
